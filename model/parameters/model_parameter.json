@@ -1,0 +1,11 @@
+{
+    "batch_size": [64],
+    "learning_rate": [0.009],
+    "momentum": [0.9],
+    "early_stopping": [0],
+    "max_epoch": [16],
+    "weight_decay_finetune": [0.00005],
+    "weight_decay_crf_fc": [0.000005],
+    "lr_crf": [0.00008],
+    "optimizer": ["Adam"]
+}

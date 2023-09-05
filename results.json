@@ -1,0 +1,87 @@
+[
+  {
+    "config": {
+      "batch_size": 64,
+      "learning_rate": 0.009,
+      "momentum": 0.9,
+      "early_stopping": 3,
+      "max_epoch": 16,
+      "weight_decay_finetune": 0.0009,
+      "weight_decay_crf_fc": 5e-06,
+      "lr_crf": 0.004,
+      "optimizer": "Adam"
+    },
+    "accuracy": 0.6796102060551961,
+    "f1_score": 0.7002644387383591,
+    "precision": 0.6796102060551961,
+    "recall": 0.7222134387351778
+  },
+  {
+    "config": {
+      "batch_size": 64,
+      "learning_rate": 0.009,
+      "momentum": 0.9,
+      "early_stopping": 3,
+      "max_epoch": 16,
+      "weight_decay_finetune": 0.0009,
+      "weight_decay_crf_fc": 5e-06,
+      "lr_crf": 8e-05,
+      "optimizer": "Adam"
+    },
+    "accuracy": 0.7548166331919959,
+    "f1_score": 0.7777564864139809,
+    "precision": 0.7548166331919959,
+    "recall": 0.8021343873517787
+  },
+  {
+    "config": {
+      "batch_size": 64,
+      "learning_rate": 0.009,
+      "momentum": 0.9,
+      "early_stopping": 3,
+      "max_epoch": 16,
+      "weight_decay_finetune": 0.002,
+      "weight_decay_crf_fc": 5e-06,
+      "lr_crf": 8e-05,
+      "optimizer": "Adam"
+    },
+    "accuracy": 0.7845718961541323,
+    "f1_score": 0.8086639831320682,
+    "precision": 0.7850390770375884,
+    "recall": 0.8337549407114625
+  },
+  {
+    "config": {
+      "batch_size": 64,
+      "learning_rate": 0.009,
+      "momentum": 0.9,
+      "early_stopping": 3,
+      "max_epoch": 16,
+      "weight_decay_finetune": 0.002,
+      "weight_decay_crf_fc": 5e-06,
+      "lr_crf": 0.004,
+      "optimizer": "Adam"
+    },
+    "accuracy": 0.7876961987651566,
+    "f1_score": 0.8116664111605091,
+    "precision": 0.7877547983930963,
+    "recall": 0.8370750988142293
+  },
+  {
+    "config": {
+      "batch_size": 64,
+      "learning_rate": 0.009,
+      "momentum": 0.9,
+      "early_stopping": 3,
+      "max_epoch": 16,
+      "weight_decay_finetune": 5e-05,
+      "weight_decay_crf_fc": 5e-06,
+      "lr_crf": 8e-05,
+      "optimizer": "Adam"
+    },
+    "accuracy": 0.8063676262738972,
+    "f1_score": 0.8308741808147778,
+    "precision": 0.8063676262738972,
+    "recall": 0.8569169960474309
+  }
+]
