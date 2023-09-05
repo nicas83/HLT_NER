@@ -11,8 +11,8 @@ As final project for Human Language Technologies (HLT) course, I developed a pro
 from the MultiCoNER II competition. I also compared the quality of the project’s result with the results of MultiCoNER 
 competition, available at this url: https://multiconer.github.io/results
 
-The datasets used are too big to be uploaded on this repo. You can download the dataset following these instructions https://multiconer.github.io/dataset
-The default parameters (without execute the gridsearch) are stored in the file model/parameters/model_parameter.json
+The datasets used are too big to be uploaded on this repo. You can download the dataset following these instructions https://multiconer.github.io/dataset \
+The default parameters (without execute the gridsearch) are stored in the file model/parameters/model_parameter.json \
 The parameters for the grid search are stored in the file model/tuning/hyperparameters.json
 
 ### Running the Code
